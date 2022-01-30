@@ -1,0 +1,282 @@
+
+/****************************************************zaid(top and sid nav Admin)*********************************************************************/
+/* continer top nav */
+#top{
+
+    display: contents;
+}
+/* class ul top */
+.top-list{
+    list-style: none;
+    
+}
+/* ul in logout*/
+#drop2{
+
+    right:20px;
+    left: inherit;
+    width: 161px;
+    height: 67px;
+   
+    margin-top: 0.125rem;
+}
+/* logo top nav*/
+#logo{
+    width: 200px;
+    height: 70px;
+    margin-left: 10px;
+}
+ 
+/* #top-style{
+    margin-right: 25px;
+} */
+
+  /* side nav*/
+  .side-navbar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    margin-left: -300px;
+    background-color: #100901;
+    transition: 0.5s;
+  }
+  
+  
+  /* class on side nav*/
+  .my-container {
+    transition: 0.4s;
+  }
+  /* in a side nav*/
+  #w:hover{
+    background-color: orange;
+  }
+  /* class in side nav*/
+  .active-nav {
+    margin-left: 0;
+  }
+  
+  /* for main section */
+  .active-cont {
+    margin-left: 250px;
+  }
+  /* menu in side nav*/
+  #menu-btn {
+    background-color: #100901;
+    color: #fff;
+    margin-left: -62px;
+  }
+  /* class in side nav */
+  .my-container input {
+    border-radius: 2rem;
+    padding: 2px 20px;
+  }
+  /* li side nav*/
+  #w{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: x-large;
+    
+  }
+  /* id in a side nav*/
+  #linkk{
+    text-decoration: none;
+    color: white;
+  }
+  
+
+  @media (min-width: 575.98px) and (max-width: 1199.98px) { 
+ 
+    /**top nav **/
+    #mid{
+  flex-wrap: nowrap;
+  
+  }
+/* li in top menu*/
+  #down{
+
+    left: inherit;
+    right: 1px;
+  }
+  /* hover link in side nav*/
+  #w:hover{
+    background-color: orange;
+  }
+ 
+  }
+  @media (max-width:575px) {
+ /**top nav **/
+    #mid{
+      flex-wrap: nowrap;
+      
+      }
+      /* hover link in side nav*/
+      #w:hover{
+        background-color: orange;
+      }
+      /* li in top menu*/
+      #down{
+
+        left: inherit;
+        right: 1px;
+      }
+  }
+  
+  @media (max-width:360px) {
+
+    /**top nav **/
+    #mid{
+      flex-wrap: nowrap;
+      }
+       /* hover link in side nav*/
+      #w:hover{
+        background-color: orange;
+      }
+      /* li in top menu*/
+      #down{
+
+        left: inherit;
+        right: 1px;
+      }
+  }
+  /* //////////////////////login style/////////////// */
+  /*  the text on the left the side login page.*/
+.write >h3{
+  /* font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-size: 30px;
+  font-weight: 200;
+  margin-top: 130px;
+  margin-bottom: 20px;
+  color: #FF7900;
+  font-family: monospace;
+
+}
+/*button in the login page */
+#button{
+  background-color: #FF7900;
+  border-color: #FF7900;
+}
+/* img on login page */
+.img{
+  width: 80%;
+}
+/*Controls the right side of the nave page*/
+.space{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+/* #bar>#con{ 
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-around;
+} */
+/* style on the search*/
+#search{
+display: flex;
+font-family: emoji;
+margin-top: 15px;
+}
+/* button in search*/
+#search2{
+color: darkgoldenrod;
+border-color: orange;
+height: 44px;
+width: 79px;
+margin-top: 15px;
+} 
+/* hover button in search*/
+#search2:hover{
+  background-color:orange;
+  color: white;
+}
+/* icon*/
+#font{
+
+  font-size: x-large;
+  color: orange;
+
+
+}
+/* li item nav */
+#list{
+
+  margin-left: 10px;
+  margin-right: 20px;
+}
+/* text on the nav  */
+span{
+  padding-left: 6px;
+}
+
+/* navbar-nav-scroll */
+#ul{
+  display: contents;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+/*dropdown-menu in ul */
+#drop{
+
+  width: 200px;
+  height: 180px;
+  right:0;
+  left: inherit;
+  margin-top: 0.125rem;
+}
+
+#coll-5{
+  padding-left: 146px;
+}
+#coll-7{
+  display: flex;
+  justify-content:center;
+}
+
+@media (min-width: 575.98px) and (max-width: 1199.98px) { 
+
+  #drop{
+      width: 400px;
+  }
+  #ul{
+   
+      width: 100%;
+
+  }
+  #bar>#con{
+      display: contents;
+
+  }
+
+ 
+
+}
+
+@media (max-width:575px) {
+  #bar>#con{
+      display: contents;
+  }
+  #drop{
+      width:450px;
+  }
+  #coll-5{
+      padding-left: 0;
+  }
+  #button{
+      background-color: #FF7900;
+      border-color: #FF7900;
+      margin-bottom: 15px;
+      margin-left: 190px;
+  }
+  #controll{
+      margin-left: 7px;
+  }
+  .write >h3{
+      margin-left: 7px;
+  }
+
+  
+}
